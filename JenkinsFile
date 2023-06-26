@@ -1,29 +1,22 @@
 pipeline {
   agent any
-    
-  tools {nodejs "node"}
-    
+  tools {nodejs "Nodejs Helper"}
   stages {
-        
     stage('Git') {
       steps {
         git 'https://github.com/Raju-github-profile/nodejs-ci-cd.git'
       }
     }
-     
     stage('Build') {
       steps {
-        sh 'npm install'
-         sh 'npm run dev'
+        bat 'npm install'
       }
     }  
-    
-            
     stage('Test') {
       steps {
-        sh 'npm run test'
-        sh 'npm run test-report'
-        sh 'npm run coverage'
+        bat 'npm run test'
+        bat 'npm run test-report'
+        bat 'npm run coverage'
       }
     }
   }
