@@ -26,7 +26,7 @@ describe('  Nock Nock !! ', () => {
     })
 
     it('Own server function call', (done) => {
-        const url = 'http://localhost:3000'
+        const url = 'http://localhost:5000'
         chai.request(url)
             .get('/student')
             .end((err, response) => {
