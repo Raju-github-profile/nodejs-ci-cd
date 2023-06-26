@@ -1,0 +1,525 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 13,
+    "passes": 12,
+    "pending": 1,
+    "failures": 0,
+    "start": "2023-06-26T08:16:37.740Z",
+    "end": "2023-06-26T08:16:38.407Z",
+    "duration": 667,
+    "testsRegistered": 13,
+    "passPercent": 100,
+    "pendingPercent": 7.6923076923076925,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9455b091-e472-4938-a686-21698029be6f",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+          "title": "  Hook Hook !! ",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\hook.spec.js",
+          "file": "\\test-cases\\hook.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"  Hook Hook !! \"",
+              "fullTitle": "  Hook Hook !!  \"before all\" hook in \"  Hook Hook !! \"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Top level')",
+              "err": {},
+              "uuid": "526a37e1-8e1e-456e-8d29-a4c66b5b29f4",
+              "parentUUID": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"  Hook Hook !! \"",
+              "fullTitle": "  Hook Hook !!  \"before each\" hook in \"  Hook Hook !! \"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Before each individual testing')",
+              "err": {},
+              "uuid": "82f5b3d4-e637-474e-9c4b-5e8f3495dc11",
+              "parentUUID": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"  Hook Hook !! \"",
+              "fullTitle": "  Hook Hook !!  \"after all\" hook in \"  Hook Hook !! \"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Bottom level')",
+              "err": {},
+              "uuid": "a8997b86-9ae3-4a7f-bc94-a5d38d130b0f",
+              "parentUUID": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook in \"  Hook Hook !! \"",
+              "fullTitle": "  Hook Hook !!  \"after each\" hook in \"  Hook Hook !! \"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('After each individual testing')",
+              "err": {},
+              "uuid": "578efc1b-46f0-43df-9f9a-0b0cfee6bcce",
+              "parentUUID": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Hook testing 1",
+              "fullTitle": "  Hook Hook !!  Hook testing 1",
+              "timedOut": false,
+              "duration": 4,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(data).to.be.a('string')",
+              "err": {},
+              "uuid": "0c8793ee-f628-4243-b8f2-d76b10a45d5c",
+              "parentUUID": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Hook testing 2",
+              "fullTitle": "  Hook Hook !!  Hook testing 2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ba6f69ae-d16f-4851-96b2-bdec01740458",
+              "parentUUID": "f29ad84f-2b42-4852-a6ba-73b8fb353cee",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0c8793ee-f628-4243-b8f2-d76b10a45d5c"
+          ],
+          "failures": [],
+          "pending": [
+            "ba6f69ae-d16f-4851-96b2-bdec01740458"
+          ],
+          "skipped": [],
+          "duration": 4,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9bd207ad-098d-460c-a402-bf6e503eba70",
+          "title": "Hook 2 ",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\hook.spec.js",
+          "file": "\\test-cases\\hook.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Hook testing 2",
+              "fullTitle": "Hook 2  Hook testing 2",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(val).to.be.equal(8)",
+              "err": {},
+              "uuid": "0484f389-7118-4bf9-ab3a-6c9a0b7f10a8",
+              "parentUUID": "9bd207ad-098d-460c-a402-bf6e503eba70",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0484f389-7118-4bf9-ab3a-6c9a0b7f10a8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bd5402bf-2f16-4a0c-9c7c-b8ff2fb31eae",
+          "title": "Mock call ",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\mock.spec.js",
+          "file": "\\test-cases\\mock.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "count function call",
+              "fullTitle": "Mock call  count function call",
+              "timedOut": false,
+              "duration": 16,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let mock = sinon.mock(studentObj)\nlet expt = mock.expects('externalCall')\nexpt.exactly(3)\nexpt.withArgs(2, 2)\nstudentObj.parent2(2, 2, 3)\nmock.verify()",
+              "err": {},
+              "uuid": "e89b51d8-6790-4bfd-ac82-764a3eda44a5",
+              "parentUUID": "bd5402bf-2f16-4a0c-9c7c-b8ff2fb31eae",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e89b51d8-6790-4bfd-ac82-764a3eda44a5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "2daf015f-6f55-4814-afc4-30169e587eb3",
+          "title": "  Nock Nock !! ",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\nock.spec.js",
+          "file": "\\test-cases\\nock.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Nock function call",
+              "fullTitle": "  Nock Nock !!  Nock function call",
+              "timedOut": false,
+              "duration": 154,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let obj = { data: [] }\n// let obj = { status: 'OK', statusCode: 200, data: [] }\nnock('https://jsonplaceholder.typicode.com')\n    .get('/todos')\n    .reply(200, obj)\nstudentObj.apiCall()\n    .then(function (record) {\n        console.log({ record })\n        expect(record).to.be.eql(obj)\n        done()\n    })\n    .catch(error => {\n        done(new Error(error))\n    })",
+              "err": {},
+              "uuid": "4a248cad-8372-448b-b927-f870877a5132",
+              "parentUUID": "2daf015f-6f55-4814-afc4-30169e587eb3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Own server function call",
+              "fullTitle": "  Nock Nock !!  Own server function call",
+              "timedOut": false,
+              "duration": 90,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const url = 'http://localhost:3000'\nchai.request(url)\n    .get('/student')\n    .end((err, response) => {\n        expect(response.status).to.be.equal(200)\n        expect(response.body).to.have.all.keys('data', 'statusText','typee')\n        done()\n    })",
+              "err": {},
+              "uuid": "60a4a08a-57f2-4ecb-a1da-747c4d869ea5",
+              "parentUUID": "2daf015f-6f55-4814-afc4-30169e587eb3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4a248cad-8372-448b-b927-f870877a5132",
+            "60a4a08a-57f2-4ecb-a1da-747c4d869ea5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 244,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bd664805-b119-4460-a5f9-8d56f041de16",
+          "title": "Describe - function ",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\sinon.spec.js",
+          "file": "\\test-cases\\sinon.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "count function call",
+              "fullTitle": "Describe - function  count function call",
+              "timedOut": false,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let spyObj = sinon.spy(studentObj, 'child')\nstudentObj.parent(2, 3, 4, 'mul')\nexpect(spyObj.calledThrice).to.be.true;\nexpect(spyObj.calledWith(2, 3, 4)).to.be.true;",
+              "err": {},
+              "uuid": "e5e271c5-10e8-42f7-a4d4-4fe05d4a2621",
+              "parentUUID": "bd664805-b119-4460-a5f9-8d56f041de16",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "stub function call",
+              "fullTitle": "Describe - function  stub function call",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let stubObj = sinon.stub(studentObj, 'externalCall')\nstubObj.withArgs(2, 2).returns(5)\nexpect(studentObj.parent2(2, 2, 3)).to.be.equal(60)",
+              "err": {},
+              "uuid": "b46a7103-1c4f-44c5-9b44-366e8bc11ea4",
+              "parentUUID": "bd664805-b119-4460-a5f9-8d56f041de16",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Without chai Promise function call",
+              "fullTitle": "Describe - function  Without chai Promise function call",
+              "timedOut": false,
+              "duration": 114,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(2000)\nstudentObj.getData().then((result) => {\n    expect(result).to.be.equal(10)\n    done()\n})",
+              "err": {},
+              "uuid": "f170daaf-f607-40aa-841f-c4d11f5741e0",
+              "parentUUID": "bd664805-b119-4460-a5f9-8d56f041de16",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Chai Promise function call",
+              "fullTitle": "Describe - function  Chai Promise function call",
+              "timedOut": false,
+              "duration": 107,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(2000)\nreturn expect(studentObj.getData()).to.eventually.equal(10)",
+              "err": {},
+              "uuid": "0d11c631-9046-44af-bb89-58c7eb75ab5f",
+              "parentUUID": "bd664805-b119-4460-a5f9-8d56f041de16",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Otp Promise function call",
+              "fullTitle": "Describe - function  Otp Promise function call",
+              "timedOut": false,
+              "duration": 105,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return expect(studentObj.getOtp()).to.eventually.have.deep.property('otp')",
+              "err": {},
+              "uuid": "f42a46a2-d43c-4e5b-b77e-87137a28ed08",
+              "parentUUID": "bd664805-b119-4460-a5f9-8d56f041de16",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e5e271c5-10e8-42f7-a4d4-4fe05d4a2621",
+            "b46a7103-1c4f-44c5-9b44-366e8bc11ea4",
+            "f170daaf-f607-40aa-841f-c4d11f5741e0",
+            "0d11c631-9046-44af-bb89-58c7eb75ab5f",
+            "f42a46a2-d43c-4e5b-b77e-87137a28ed08"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 334,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "93537dc5-67f6-47ec-94a5-a45f2e14db63",
+          "title": "first-assert-test",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\user.spec.js",
+          "file": "\\test-cases\\user.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Inside it-1",
+              "fullTitle": "first-assert-test Inside it-1",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.typeOf(username, 'string')\nassert.typeOf(age, 'number')\nassert.lengthOf(data.product, 2)\nassert.equal(data.isVerified, false)",
+              "err": {},
+              "uuid": "da7d7554-3ff7-4766-ad19-e4ffb9f37cdd",
+              "parentUUID": "93537dc5-67f6-47ec-94a5-a45f2e14db63",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "da7d7554-3ff7-4766-ad19-e4ffb9f37cdd"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9ccff10a-66d1-4a5c-9986-f42099d71b18",
+          "title": "first-should-test",
+          "fullFile": "D:\\chai-mocha-test\\test-cases\\user.spec.js",
+          "file": "\\test-cases\\user.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Inside should-1",
+              "fullTitle": "first-should-test Inside should-1",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "username.should.be.a('string')\ndata.product.length.should.be.equal(2)\ndata.should.have.property('product').with.lengthOf(2)",
+              "err": {},
+              "uuid": "ac261851-6940-47a9-a792-9a2b145a4959",
+              "parentUUID": "9ccff10a-66d1-4a5c-9986-f42099d71b18",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ac261851-6940-47a9-a792-9a2b145a4959"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "Test-report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
