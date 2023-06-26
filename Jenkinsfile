@@ -13,17 +13,17 @@ pipeline {
      
     stage('Build') {
       steps {
-        sh 'npm install'
-         sh 'npm run dev'
+        bat 'npm install'
+         bat 'npm run dev'
       }
     }  
     
             
     stage('Test') {
       steps {
-        sh 'npm run test'
-        sh 'npm run test-report'
-        sh 'npm run coverage'
+        bat 'npm run test'
+        bat 'npm run test-report'
+        bat 'npm run coverage'
       }
     }
   }
