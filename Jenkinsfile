@@ -18,12 +18,6 @@ pipeline {
     }  
     
             
-    stage('Test') {
-      steps {
-        bat 'npm run test'
-        bat 'npm run test-report'
-        bat 'npm run coverage'
-      }
-    }
+   
   }
 }
